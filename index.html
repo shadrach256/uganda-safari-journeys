@@ -18,12 +18,338 @@
     <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
     
     <link rel="icon" type="image/png" href="/favicon.ico" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <div id="root"></div>
+    <!-- Navigation -->
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <h1>Uganda Safari Journeys</h1>
+          </div>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li><a href="#home" class="nav-link">Home</a></li>
+              <li><a href="#about" class="nav-link">About</a></li>
+              <li><a href="#safaris" class="nav-link">Safaris</a></li>
+              <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+              <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title reveal">Discover Uganda's Natural Beauty</h1>
+        <p class="hero-subtitle reveal">Experience the Pearl of Africa with our premium safari tours</p>
+        <a href="#safaris" class="btn btn-primary reveal">Explore Safaris</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+      <div class="container">
+        <h2 class="section-title reveal">About Us</h2>
+        <div class="about-container">
+          <div class="about-image reveal">
+            <img src="https://images.unsplash.com/photo-1466721591366-2d5fba72006d" alt="Safari in Uganda" />
+          </div>
+          <div class="about-content reveal">
+            <h3>Uganda Safari Journeys</h3>
+            <p>With over 15 years of experience, we specialize in creating unforgettable safari experiences in Uganda. Our passionate team of local guides will lead you through breathtaking landscapes and introduce you to Uganda's diverse wildlife and rich cultural heritage.</p>
+            <p>We are committed to sustainable tourism and work closely with local communities to ensure our safaris benefit the people and places we visit.</p>
+            <div class="about-features">
+              <div class="feature reveal">
+                <div class="feature-icon">🦍</div>
+                <h4>Wildlife Adventures</h4>
+                <p>Get up close with mountain gorillas and diverse wildlife.</p>
+              </div>
+              <div class="feature reveal">
+                <div class="feature-icon">🏞️</div>
+                <h4>Scenic Beauty</h4>
+                <p>Experience Uganda's breathtaking landscapes and national parks.</p>
+              </div>
+              <div class="feature reveal">
+                <div class="feature-icon">🏠</div>
+                <h4>Local Culture</h4>
+                <p>Immerse yourself in Uganda's rich cultural heritage.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Safaris Section -->
+    <section id="safaris" class="safaris section">
+      <div class="container">
+        <h2 class="section-title reveal">Our Safari Packages</h2>
+        <p class="section-subtitle reveal">Explore our most popular adventures across Uganda</p>
+        
+        <div class="safari-grid">
+          <div class="safari-card reveal">
+            <div class="safari-image">
+              <span class="safari-tag">Most Popular</span>
+              <img src="https://images.unsplash.com/photo-1472396961693-142e6e269027" alt="Gorilla Trekking" />
+            </div>
+            <div class="safari-content">
+              <h3>Bwindi Gorilla Encounter</h3>
+              <p>Trek through the impenetrable forest to witness magnificent mountain gorillas in their natural habitat.</p>
+              <ul class="safari-features">
+                <li>3 Days / 2 Nights</li>
+                <li>Guided Gorilla Trek</li>
+                <li>Luxury Accommodation</li>
+              </ul>
+              <div class="safari-footer">
+                <span class="safari-price">From $1,500 USD</span>
+                <a href="#contact" class="btn btn-secondary">Inquire Now</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="safari-card reveal">
+            <div class="safari-image">
+              <img src="https://images.unsplash.com/photo-1482938289607-e9573fc25ebb" alt="Queen Elizabeth National Park" />
+            </div>
+            <div class="safari-content">
+              <h3>Queen Elizabeth Safari</h3>
+              <p>Discover the diverse wildlife of Queen Elizabeth National Park, including tree-climbing lions.</p>
+              <ul class="safari-features">
+                <li>4 Days / 3 Nights</li>
+                <li>Game Drives</li>
+                <li>Boat Safari on Kazinga Channel</li>
+              </ul>
+              <div class="safari-footer">
+                <span class="safari-price">From $980 USD</span>
+                <a href="#contact" class="btn btn-secondary">Inquire Now</a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="safari-card reveal">
+            <div class="safari-image">
+              <img src="https://images.unsplash.com/photo-1500673922987-e212871fec22" alt="Murchison Falls" />
+            </div>
+            <div class="safari-content">
+              <h3>Murchison Falls Adventure</h3>
+              <p>Experience the mighty Nile River and the spectacular Murchison Falls with abundant wildlife.</p>
+              <ul class="safari-features">
+                <li>5 Days / 4 Nights</li>
+                <li>Nile River Cruise</li>
+                <li>Rhino Tracking</li>
+              </ul>
+              <div class="safari-footer">
+                <span class="safari-price">From $1,200 USD</span>
+                <a href="#contact" class="btn btn-secondary">Inquire Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+      <div class="container">
+        <h2 class="section-title reveal">What Our Travelers Say</h2>
+        
+        <div class="testimonial-slider">
+          <div class="testimonial reveal">
+            <div class="testimonial-content">
+              <p>"Our gorilla trekking experience was absolutely incredible. The guides were knowledgeable, and seeing the gorillas in their natural habitat was a life-changing experience."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-image">
+                <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Sarah Johnson" />
+              </div>
+              <div class="author-info">
+                <h4>Sarah Johnson</h4>
+                <p>United States</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial reveal">
+            <div class="testimonial-content">
+              <p>"The safari exceeded all our expectations. We saw all the Big Five and the accommodation was luxurious yet authentic. Uganda Safari Journeys made our honeymoon unforgettable!"</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-image">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="David & Emma Chen" />
+              </div>
+              <div class="author-info">
+                <h4>David & Emma Chen</h4>
+                <p>Australia</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="testimonial reveal">
+            <div class="testimonial-content">
+              <p>"From start to finish, our 10-day Uganda adventure was perfectly organized. The team's attention to detail and passion for wildlife conservation made this trip special."</p>
+            </div>
+            <div class="testimonial-author">
+              <div class="author-image">
+                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="Maria Schmidt" />
+              </div>
+              <div class="author-info">
+                <h4>Maria Schmidt</h4>
+                <p>Germany</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <div class="container">
+        <h2 class="section-title reveal">Contact Us</h2>
+        <p class="section-subtitle reveal">Ready to start your Uganda adventure? Get in touch with us today!</p>
+        
+        <div class="contact-container">
+          <div class="contact-form reveal">
+            <form>
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div class="form-group">
+                <label for="safari">Interested Safari</label>
+                <select id="safari" name="safari">
+                  <option value="">Select a Safari</option>
+                  <option value="gorilla">Bwindi Gorilla Encounter</option>
+                  <option value="queen">Queen Elizabeth Safari</option>
+                  <option value="murchison">Murchison Falls Adventure</option>
+                  <option value="custom">Custom Safari</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+          
+          <div class="contact-info reveal">
+            <div class="info-item">
+              <h3>Office Address</h3>
+              <p>Plot 45, Kampala Road</p>
+              <p>Kampala, Uganda</p>
+            </div>
+            <div class="info-item">
+              <h3>Contact Details</h3>
+              <p>Phone: +256 772 123456</p>
+              <p>Email: info@ugandasafarijourneys.com</p>
+            </div>
+            <div class="info-item">
+              <h3>Opening Hours</h3>
+              <p>Monday - Friday: 8:30 AM - 5:30 PM</p>
+              <p>Saturday: 9:00 AM - 1:00 PM</p>
+              <p>Sunday: Closed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h2>Uganda Safari Journeys</h2>
+            <p>The Pearl of Africa Awaits You</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#safaris">Safari Packages</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="footer-newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Get updates on new safari packages and travel tips</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your email address">
+              <button type="submit" class="btn btn-small">Subscribe</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Uganda Safari Journeys. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
     <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Simple scroll reveal animation
+      document.addEventListener('DOMContentLoaded', function() {
+        // Get all elements with reveal class
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        // Function to check if element is in viewport
+        function isInViewport(el) {
+          const rect = el.getBoundingClientRect();
+          return (
+            rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.85
+          );
+        }
+        
+        // Function to reveal elements
+        function revealOnScroll() {
+          for (let i = 0; i < revealElements.length; i++) {
+            if (isInViewport(revealElements[i])) {
+              revealElements[i].classList.add('active');
+            }
+          }
+        }
+        
+        // Reveal elements that are already visible on page load
+        revealOnScroll();
+        
+        // Reveal elements on scroll
+        window.addEventListener('scroll', revealOnScroll);
+
+        // Mobile menu toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navList = document.querySelector('.nav-list');
+        
+        if (hamburger) {
+          hamburger.addEventListener('click', function() {
+            this.classList.toggle('active');
+            navList.classList.toggle('active');
+          });
+        }
+      });
+    </script>
   </body>
 </html>
